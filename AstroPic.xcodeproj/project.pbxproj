@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04055FE12BD8DBE200A750B2 /* AstroPicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04055FE02BD8DBE200A750B2 /* AstroPicApp.swift */; };
+		04055FE32BD8DBE200A750B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04055FE22BD8DBE200A750B2 /* ContentView.swift */; };
+		04055FE52BD8DBE500A750B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04055FE42BD8DBE500A750B2 /* Assets.xcassets */; };
+		04055FE82BD8DBE500A750B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04055FE72BD8DBE500A750B2 /* Preview Assets.xcassets */; };
+		04055FF22BD8E73200A750B2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04055FF12BD8E73200A750B2 /* NetworkManager.swift */; };
+		04055FF42BD8E8AA00A750B2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04055FF32BD8E8A900A750B2 /* Constants.swift */; };
+		04055FF62BD8E99100A750B2 /* url helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04055FF52BD8E99100A750B2 /* url helper.swift */; };
+		04055FF82BD8EEA700A750B2 /* PicofTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04055FF72BD8EEA700A750B2 /* PicofTodayView.swift */; };
+		04055FFA2BD8F4BF00A750B2 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04055FF92BD8F4BF00A750B2 /* PhotoInfo.swift */; };
+		0437BB212BDF89ED001E190A /* SelectDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437BB202BDF89ED001E190A /* SelectDateView.swift */; };
+		0437BB232BDFB5BC001E190A /* MultiNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437BB222BDFB5BC001E190A /* MultiNetworkManager.swift */; };
+		0437BB252BDFB60E001E190A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437BB242BDFB60E001E190A /* API.swift */; };
+		0437BB272BDFBAEB001E190A /* APODListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437BB262BDFBAEB001E190A /* APODListView.swift */; };
+		0437BB292BE0C97E001E190A /* APODRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437BB282BE0C97E001E190A /* APODRow.swift */; };
+		0437BB2B2BE0FC65001E190A /* APODDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437BB2A2BE0FC65001E190A /* APODDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04055FDD2BD8DBE200A750B2 /* AstroPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04055FE02BD8DBE200A750B2 /* AstroPicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroPicApp.swift; sourceTree = "<group>"; };
+		04055FE22BD8DBE200A750B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04055FE42BD8DBE500A750B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04055FE72BD8DBE500A750B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04055FF12BD8E73200A750B2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04055FF32BD8E8A900A750B2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04055FF52BD8E99100A750B2 /* url helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "url helper.swift"; sourceTree = "<group>"; };
+		04055FF72BD8EEA700A750B2 /* PicofTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicofTodayView.swift; sourceTree = "<group>"; };
+		04055FF92BD8F4BF00A750B2 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		0437BB202BDF89ED001E190A /* SelectDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateView.swift; sourceTree = "<group>"; };
+		0437BB222BDFB5BC001E190A /* MultiNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiNetworkManager.swift; sourceTree = "<group>"; };
+		0437BB242BDFB60E001E190A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0437BB262BDFBAEB001E190A /* APODListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODListView.swift; sourceTree = "<group>"; };
+		0437BB282BE0C97E001E190A /* APODRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODRow.swift; sourceTree = "<group>"; };
+		0437BB2A2BE0FC65001E190A /* APODDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04055FDA2BD8DBE200A750B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04055FD42BD8DBE200A750B2 = {
+			isa = PBXGroup;
+			children = (
+				04055FDF2BD8DBE200A750B2 /* AstroPic */,
+				04055FDE2BD8DBE200A750B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04055FDE2BD8DBE200A750B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04055FDD2BD8DBE200A750B2 /* AstroPic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04055FDF2BD8DBE200A750B2 /* AstroPic */ = {
+			isa = PBXGroup;
+			children = (
+				04055FF02BD8E6D400A750B2 /* View Models */,
+				04055FEF2BD8E6BF00A750B2 /* Views */,
+				04055FEE2BD8E6AE00A750B2 /* Model */,
+				04055FE02BD8DBE200A750B2 /* AstroPicApp.swift */,
+				04055FE22BD8DBE200A750B2 /* ContentView.swift */,
+				04055FE42BD8DBE500A750B2 /* Assets.xcassets */,
+				04055FE62BD8DBE500A750B2 /* Preview Content */,
+			);
+			path = AstroPic;
+			sourceTree = "<group>";
+		};
+		04055FE62BD8DBE500A750B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04055FE72BD8DBE500A750B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04055FEE2BD8E6AE00A750B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04055FF92BD8F4BF00A750B2 /* PhotoInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04055FEF2BD8E6BF00A750B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04055FF72BD8EEA700A750B2 /* PicofTodayView.swift */,
+				0437BB202BDF89ED001E190A /* SelectDateView.swift */,
+				0437BB262BDFBAEB001E190A /* APODListView.swift */,
+				0437BB282BE0C97E001E190A /* APODRow.swift */,
+				0437BB2A2BE0FC65001E190A /* APODDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04055FF02BD8E6D400A750B2 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				04055FF12BD8E73200A750B2 /* NetworkManager.swift */,
+				04055FF32BD8E8A900A750B2 /* Constants.swift */,
+				04055FF52BD8E99100A750B2 /* url helper.swift */,
+				0437BB222BDFB5BC001E190A /* MultiNetworkManager.swift */,
+				0437BB242BDFB60E001E190A /* API.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04055FDC2BD8DBE200A750B2 /* AstroPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04055FEB2BD8DBE500A750B2 /* Build configuration list for PBXNativeTarget "AstroPic" */;
+			buildPhases = (
+				04055FD92BD8DBE200A750B2 /* Sources */,
+				04055FDA2BD8DBE200A750B2 /* Frameworks */,
+				04055FDB2BD8DBE200A750B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroPic;
+			productName = AstroPic;
+			productReference = 04055FDD2BD8DBE200A750B2 /* AstroPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04055FD52BD8DBE200A750B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					04055FDC2BD8DBE200A750B2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 04055FD82BD8DBE200A750B2 /* Build configuration list for PBXProject "AstroPic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04055FD42BD8DBE200A750B2;
+			productRefGroup = 04055FDE2BD8DBE200A750B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04055FDC2BD8DBE200A750B2 /* AstroPic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04055FDB2BD8DBE200A750B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04055FE82BD8DBE500A750B2 /* Preview Assets.xcassets in Resources */,
+				04055FE52BD8DBE500A750B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04055FD92BD8DBE200A750B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437BB212BDF89ED001E190A /* SelectDateView.swift in Sources */,
+				04055FFA2BD8F4BF00A750B2 /* PhotoInfo.swift in Sources */,
+				04055FF82BD8EEA700A750B2 /* PicofTodayView.swift in Sources */,
+				04055FF62BD8E99100A750B2 /* url helper.swift in Sources */,
+				0437BB252BDFB60E001E190A /* API.swift in Sources */,
+				04055FE32BD8DBE200A750B2 /* ContentView.swift in Sources */,
+				0437BB232BDFB5BC001E190A /* MultiNetworkManager.swift in Sources */,
+				04055FE12BD8DBE200A750B2 /* AstroPicApp.swift in Sources */,
+				0437BB2B2BE0FC65001E190A /* APODDetailView.swift in Sources */,
+				0437BB292BE0C97E001E190A /* APODRow.swift in Sources */,
+				04055FF22BD8E73200A750B2 /* NetworkManager.swift in Sources */,
+				04055FF42BD8E8AA00A750B2 /* Constants.swift in Sources */,
+				0437BB272BDFBAEB001E190A /* APODListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04055FE92BD8DBE500A750B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04055FEA2BD8DBE500A750B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04055FEC2BD8DBE500A750B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstroPic/Preview Content\"";
+				DEVELOPMENT_TEAM = SH93BWRTP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.demo-app.AstroPic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04055FED2BD8DBE500A750B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AstroPic/Preview Content\"";
+				DEVELOPMENT_TEAM = SH93BWRTP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.demo-app.AstroPic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04055FD82BD8DBE200A750B2 /* Build configuration list for PBXProject "AstroPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04055FE92BD8DBE500A750B2 /* Debug */,
+				04055FEA2BD8DBE500A750B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04055FEB2BD8DBE500A750B2 /* Build configuration list for PBXNativeTarget "AstroPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04055FEC2BD8DBE500A750B2 /* Debug */,
+				04055FED2BD8DBE500A750B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04055FD52BD8DBE200A750B2 /* Project object */;
+}
